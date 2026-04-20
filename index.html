@@ -220,12 +220,12 @@
   <button class="btn btn-ghost" onclick="openDatasModal()">🗓 Datas Comemorativas</button>
   <button class="btn btn-ghost" onclick="resetToken()">🔐 Token GitHub</button>
   <button class="btn btn-ghost" onclick="exportHTML()">📥 Salvar HTML</button>
-  <div class="month-nav" id="monthNav"><button class="month-btn" id="mnav0">Jan</button><button class="month-btn" id="mnav1">Fev</button><button class="month-btn active" id="mnav2">Mar</button><button class="month-btn" id="mnav3">Abr</button><button class="month-btn" id="mnav4">Mai</button><button class="month-btn" id="mnav5">Jun</button><button class="month-btn" id="mnav6">Jul</button><button class="month-btn" id="mnav7">Ago</button><button class="month-btn" id="mnav8">Set</button><button class="month-btn" id="mnav9">Out</button><button class="month-btn" id="mnav10">Nov</button><button class="month-btn" id="mnav11">Dez</button></div>
+  <div class="month-nav" id="monthNav"><button class="month-btn active" id="mnav0">Jan</button><button class="month-btn" id="mnav1">Fev</button><button class="month-btn" id="mnav2">Mar</button><button class="month-btn" id="mnav3">Abr</button><button class="month-btn" id="mnav4">Mai</button><button class="month-btn" id="mnav5">Jun</button><button class="month-btn" id="mnav6">Jul</button><button class="month-btn" id="mnav7">Ago</button><button class="month-btn" id="mnav8">Set</button><button class="month-btn" id="mnav9">Out</button><button class="month-btn" id="mnav10">Nov</button><button class="month-btn" id="mnav11">Dez</button><button class="month-btn" id="mnav0">Jan</button><button class="month-btn" id="mnav1">Fev</button><button class="month-btn" id="mnav2">Mar</button><button class="month-btn" id="mnav3">Abr</button><button class="month-btn" id="mnav4">Mai</button><button class="month-btn" id="mnav5">Jun</button><button class="month-btn" id="mnav6">Jul</button><button class="month-btn" id="mnav7">Ago</button><button class="month-btn" id="mnav8">Set</button><button class="month-btn" id="mnav9">Out</button><button class="month-btn" id="mnav10">Nov</button><button class="month-btn" id="mnav11">Dez</button></div>
 </div>
 
 <div class="stats-bar">
-  <div class="stat-pill"><div class="num" style="color:var(--navy)" id="statTotal">10</div><div class="lbl">Total Posts</div></div>
-  <div class="stat-pill"><div class="num" style="color:var(--arte)" id="statArte">5</div><div class="lbl">Artes</div></div>
+  <div class="stat-pill"><div class="num" style="color:var(--navy)" id="statTotal">11</div><div class="lbl">Total Posts</div></div>
+  <div class="stat-pill"><div class="num" style="color:var(--arte)" id="statArte">6</div><div class="lbl">Artes</div></div>
   <div class="stat-pill"><div class="num" style="color:var(--foto)" id="statFoto">0</div><div class="lbl">Fotos</div></div>
   <div class="stat-pill"><div class="num" style="color:var(--story)" id="statStory">0</div><div class="lbl">Stories</div></div>
   <div class="stat-pill"><div class="num" style="color:var(--reels)" id="statReels">1</div><div class="lbl">Reels</div></div>
@@ -267,7 +267,18 @@
         <textarea class="plan-input" style="min-height:48px;resize:vertical" placeholder="Anotações livres…" onchange="savePlanField(1,'observacoes',this.value)"></textarea>
       </div>
     </div>
-  </div><div class="cal-grid-outer"><div class="cal-dow"><div class="cal-dow-cell wknd">Dom</div><div class="cal-dow-cell">Seg</div><div class="cal-dow-cell">Ter</div><div class="cal-dow-cell">Qua</div><div class="cal-dow-cell">Qui</div><div class="cal-dow-cell">Sex</div><div class="cal-dow-cell wknd">Sáb</div></div><div class="cal-weeks"><div class="cal-week"><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day" data-day="1"><div class="day-num">1</div><div class="special-label">🎆 Ano Novo</div><button class="add-post-btn" onclick="openModal(0,1,true)">＋ post</button></div><div class="cal-day" data-day="2"><div class="day-num">2</div><button class="add-post-btn" onclick="openModal(0,2,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="3"><div class="day-num">3</div><button class="add-post-btn" onclick="openModal(0,3,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="4"><div class="day-num">4</div><button class="add-post-btn" onclick="openModal(0,4,true)">＋ post</button></div><div class="cal-day" data-day="5"><div class="day-num">5</div><button class="add-post-btn" onclick="openModal(0,5,true)">＋ post</button></div><div class="cal-day" data-day="6"><div class="day-num">6</div><button class="add-post-btn" onclick="openModal(0,6,true)">＋ post</button></div><div class="cal-day" data-day="7"><div class="day-num">7</div><button class="add-post-btn" onclick="openModal(0,7,true)">＋ post</button></div><div class="cal-day" data-day="8"><div class="day-num">8</div><button class="add-post-btn" onclick="openModal(0,8,true)">＋ post</button></div><div class="cal-day" data-day="9"><div class="day-num">9</div><button class="add-post-btn" onclick="openModal(0,9,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="10"><div class="day-num">10</div><button class="add-post-btn" onclick="openModal(0,10,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="11"><div class="day-num">11</div><button class="add-post-btn" onclick="openModal(0,11,true)">＋ post</button></div><div class="cal-day" data-day="12"><div class="day-num">12</div><button class="add-post-btn" onclick="openModal(0,12,true)">＋ post</button></div><div class="cal-day" data-day="13"><div class="day-num">13</div><button class="add-post-btn" onclick="openModal(0,13,true)">＋ post</button></div><div class="cal-day" data-day="14"><div class="day-num">14</div><button class="add-post-btn" onclick="openModal(0,14,true)">＋ post</button></div><div class="cal-day" data-day="15"><div class="day-num">15</div><button class="add-post-btn" onclick="openModal(0,15,true)">＋ post</button></div><div class="cal-day" data-day="16"><div class="day-num">16</div><button class="add-post-btn" onclick="openModal(0,16,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="17"><div class="day-num">17</div><button class="add-post-btn" onclick="openModal(0,17,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="18"><div class="day-num">18</div><button class="add-post-btn" onclick="openModal(0,18,true)">＋ post</button></div><div class="cal-day" data-day="19"><div class="day-num">19</div><button class="add-post-btn" onclick="openModal(0,19,true)">＋ post</button></div><div class="cal-day" data-day="20"><div class="day-num">20</div><button class="add-post-btn" onclick="openModal(0,20,true)">＋ post</button></div><div class="cal-day" data-day="21"><div class="day-num">21</div><button class="add-post-btn" onclick="openModal(0,21,true)">＋ post</button></div><div class="cal-day" data-day="22"><div class="day-num">22</div><button class="add-post-btn" onclick="openModal(0,22,true)">＋ post</button></div><div class="cal-day" data-day="23"><div class="day-num">23</div><button class="add-post-btn" onclick="openModal(0,23,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="24"><div class="day-num">24</div><button class="add-post-btn" onclick="openModal(0,24,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="25"><div class="day-num">25</div><button class="add-post-btn" onclick="openModal(0,25,true)">＋ post</button></div><div class="cal-day" data-day="26"><div class="day-num">26</div><button class="add-post-btn" onclick="openModal(0,26,true)">＋ post</button></div><div class="cal-day" data-day="27"><div class="day-num">27</div><button class="add-post-btn" onclick="openModal(0,27,true)">＋ post</button></div><div class="cal-day" data-day="28"><div class="day-num">28</div><button class="add-post-btn" onclick="openModal(0,28,true)">＋ post</button></div><div class="cal-day" data-day="29"><div class="day-num">29</div><button class="add-post-btn" onclick="openModal(0,29,true)">＋ post</button></div><div class="cal-day" data-day="30"><div class="day-num">30</div><button class="add-post-btn" onclick="openModal(0,30,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="31"><div class="day-num">31</div><button class="add-post-btn" onclick="openModal(0,31,true)">＋ post</button></div></div></div></div></div><div class="month-block" id="month-1"><div class="month-header"><div class="month-title">Fevereiro <em>2026</em></div><div class="month-badge">Mês 2</div></div><div class="month-notes" contenteditable="true" data-month="2" placeholder="Descreva a campanha do mês, promoções, objetivos…"></div><div class="plan-panel">
+  </div><div class="cal-grid-outer"><div class="cal-dow"><div class="cal-dow-cell wknd">Dom</div><div class="cal-dow-cell">Seg</div><div class="cal-dow-cell">Ter</div><div class="cal-dow-cell">Qua</div><div class="cal-dow-cell">Qui</div><div class="cal-dow-cell">Sex</div><div class="cal-dow-cell wknd">Sáb</div></div><div class="cal-weeks"><div class="cal-week"><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day" data-day="1"><div class="day-num">1</div><div class="special-label">🎆 Ano Novo</div><button class="add-post-btn" onclick="openModal(0,1,true)">＋ post</button></div><div class="cal-day" data-day="2"><div class="day-num">2</div><button class="add-post-btn" onclick="openModal(0,2,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="3"><div class="day-num">3</div><button class="add-post-btn" onclick="openModal(0,3,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="4"><div class="day-num">4</div>
+            <div class="post-card arte" onclick="openModal(0,4)">
+              <div class="card-actions">
+                <button class="card-btn" onclick="event.stopPropagation();togglePostado(0,4)" title="Toggle postado">✅</button>
+                <button class="card-btn" onclick="event.stopPropagation();openModal(0,4)">✏️</button>
+                <button class="card-btn" onclick="event.stopPropagation();deletePostByKey(0,4)">🗑</button>
+              </div>
+              <div class="post-type-tag">🎨 Arte</div>
+              
+              <div class="post-title" contenteditable="true" spellcheck="false" onclick="event.stopPropagation()" onblur="updateTitle(0,4,this.innerText)">teste</div>
+              <div class="card-gallery"><button class="add-thumb-btn" onclick="event.stopPropagation();triggerCardImg(0,4)" title="Adicionar foto">＋</button></div>
+            </div></div><div class="cal-day" data-day="5"><div class="day-num">5</div><button class="add-post-btn" onclick="openModal(0,5,true)">＋ post</button></div><div class="cal-day" data-day="6"><div class="day-num">6</div><button class="add-post-btn" onclick="openModal(0,6,true)">＋ post</button></div><div class="cal-day" data-day="7"><div class="day-num">7</div><button class="add-post-btn" onclick="openModal(0,7,true)">＋ post</button></div><div class="cal-day" data-day="8"><div class="day-num">8</div><button class="add-post-btn" onclick="openModal(0,8,true)">＋ post</button></div><div class="cal-day" data-day="9"><div class="day-num">9</div><button class="add-post-btn" onclick="openModal(0,9,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="10"><div class="day-num">10</div><button class="add-post-btn" onclick="openModal(0,10,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="11"><div class="day-num">11</div><button class="add-post-btn" onclick="openModal(0,11,true)">＋ post</button></div><div class="cal-day" data-day="12"><div class="day-num">12</div><button class="add-post-btn" onclick="openModal(0,12,true)">＋ post</button></div><div class="cal-day" data-day="13"><div class="day-num">13</div><button class="add-post-btn" onclick="openModal(0,13,true)">＋ post</button></div><div class="cal-day" data-day="14"><div class="day-num">14</div><button class="add-post-btn" onclick="openModal(0,14,true)">＋ post</button></div><div class="cal-day" data-day="15"><div class="day-num">15</div><button class="add-post-btn" onclick="openModal(0,15,true)">＋ post</button></div><div class="cal-day" data-day="16"><div class="day-num">16</div><button class="add-post-btn" onclick="openModal(0,16,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="17"><div class="day-num">17</div><button class="add-post-btn" onclick="openModal(0,17,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="18"><div class="day-num">18</div><button class="add-post-btn" onclick="openModal(0,18,true)">＋ post</button></div><div class="cal-day" data-day="19"><div class="day-num">19</div><button class="add-post-btn" onclick="openModal(0,19,true)">＋ post</button></div><div class="cal-day" data-day="20"><div class="day-num">20</div><button class="add-post-btn" onclick="openModal(0,20,true)">＋ post</button></div><div class="cal-day" data-day="21"><div class="day-num">21</div><button class="add-post-btn" onclick="openModal(0,21,true)">＋ post</button></div><div class="cal-day" data-day="22"><div class="day-num">22</div><button class="add-post-btn" onclick="openModal(0,22,true)">＋ post</button></div><div class="cal-day" data-day="23"><div class="day-num">23</div><button class="add-post-btn" onclick="openModal(0,23,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="24"><div class="day-num">24</div><button class="add-post-btn" onclick="openModal(0,24,true)">＋ post</button></div></div><div class="cal-week"><div class="cal-day wknd-col" data-day="25"><div class="day-num">25</div><button class="add-post-btn" onclick="openModal(0,25,true)">＋ post</button></div><div class="cal-day" data-day="26"><div class="day-num">26</div><button class="add-post-btn" onclick="openModal(0,26,true)">＋ post</button></div><div class="cal-day" data-day="27"><div class="day-num">27</div><button class="add-post-btn" onclick="openModal(0,27,true)">＋ post</button></div><div class="cal-day" data-day="28"><div class="day-num">28</div><button class="add-post-btn" onclick="openModal(0,28,true)">＋ post</button></div><div class="cal-day" data-day="29"><div class="day-num">29</div><button class="add-post-btn" onclick="openModal(0,29,true)">＋ post</button></div><div class="cal-day" data-day="30"><div class="day-num">30</div><button class="add-post-btn" onclick="openModal(0,30,true)">＋ post</button></div><div class="cal-day wknd-col" data-day="31"><div class="day-num">31</div><button class="add-post-btn" onclick="openModal(0,31,true)">＋ post</button></div></div></div></div></div><div class="month-block" id="month-1"><div class="month-header"><div class="month-title">Fevereiro <em>2026</em></div><div class="month-badge">Mês 2</div></div><div class="month-notes" contenteditable="true" data-month="2" placeholder="Descreva a campanha do mês, promoções, objetivos…"></div><div class="plan-panel">
     <div class="plan-header-row">
       <span class="plan-icon">📋</span>
       <span>Planejamento do Mês</span>
@@ -341,29 +352,29 @@
     <div class="plan-grid">
       <div class="plan-cell">
         <div class="plan-label"><span>🎯</span> Objetivos de Campanha</div>
-        <textarea class="plan-input tall" placeholder="Ex: Aumentar leads, lançar promoção…" onchange="savePlanField(4,'objetivos',this.value)"></textarea>
+        <textarea class="plan-input tall" placeholder="Ex: Aumentar leads, lançar promoção…" onchange="savePlanField(4,'objetivos',this.value)">Iniciar Material mais leve para depois começar a produzir material mais profissional.</textarea>
       </div>
       <div class="plan-cell">
         <div class="plan-label"><span>💰</span> Investimento em Mídia</div>
-        <textarea class="plan-input tall" placeholder="Ex: R$ 1.000 — Meta Ads…" onchange="savePlanField(4,'investimento',this.value)"></textarea>
+        <textarea class="plan-input tall" placeholder="Ex: R$ 1.000 — Meta Ads…" onchange="savePlanField(4,'investimento',this.value)">500 reais</textarea>
       </div>
       <div class="plan-cell">
         <div class="plan-label"><span>💸</span> Tráfego Pago</div>
-        <textarea class="plan-input tall" placeholder="Ex: R$ 600 Meta Ads…" onchange="savePlanField(4,'trafego',this.value)"></textarea>
+        <textarea class="plan-input tall" placeholder="Ex: R$ 600 Meta Ads…" onchange="savePlanField(4,'trafego',this.value)">500 reais em meta ads</textarea>
       </div>
       <div class="plan-cell">
         <div class="plan-label"><span>🌟</span> Influenciadores</div>
-        <textarea class="plan-input tall" placeholder="Ex: @perfil — tipo de conteúdo…" onchange="savePlanField(4,'influenciadores',this.value)"></textarea>
+        <textarea class="plan-input tall" placeholder="Ex: @perfil — tipo de conteúdo…" onchange="savePlanField(4,'influenciadores',this.value)">Nenhum.</textarea>
       </div>
       <div class="plan-cell" style="border-right:none">
         <div class="plan-label"><span>👤</span> Persona do Mês</div>
-        <textarea class="plan-input tall" placeholder="Ex: Público-alvo, faixa etária…" onchange="savePlanField(4,'persona',this.value)"></textarea>
+        <textarea class="plan-input tall" placeholder="Ex: Público-alvo, faixa etária…" onchange="savePlanField(4,'persona',this.value)">Público geral de 25 a 40 anos.</textarea>
       </div>
     </div>
     <div class="plan-grid-bottom">
       <div class="plan-cell-full">
         <div class="plan-label"><span>📝</span> Observações Gerais</div>
-        <textarea class="plan-input" style="min-height:48px;resize:vertical" placeholder="Anotações livres…" onchange="savePlanField(4,'observacoes',this.value)"></textarea>
+        <textarea class="plan-input" style="min-height:48px;resize:vertical" placeholder="Anotações livres…" onchange="savePlanField(4,'observacoes',this.value)">Captação no dia 1 de abril.</textarea>
       </div>
     </div>
   </div><div class="cal-grid-outer"><div class="cal-dow"><div class="cal-dow-cell wknd">Dom</div><div class="cal-dow-cell">Seg</div><div class="cal-dow-cell">Ter</div><div class="cal-dow-cell">Qua</div><div class="cal-dow-cell">Qui</div><div class="cal-dow-cell">Sex</div><div class="cal-dow-cell wknd">Sáb</div></div><div class="cal-weeks"><div class="cal-week"><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day empty"><div class="day-num"></div></div><div class="cal-day" data-day="1"><div class="day-num">1</div><div class="special-label">🤥 Dia da Mentira</div>
@@ -746,14 +757,14 @@
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal">
     <div class="modal-header">
-      <h3>Editar Post · <span id="modalDateLabel"></span></h3>
+      <h3>Editar Post · <span id="modalDateLabel">4/1/2026</span></h3>
       <button class="modal-close" onclick="closeModal()">✕</button>
     </div>
     <div class="modal-body">
       <div class="form-group">
         <label>Tipo de Conteúdo</label>
         <div class="type-grid">
-          <div class="type-opt" data-type="arte" onclick="selectType('arte')">🎨 Arte</div>
+          <div class="type-opt selected" data-type="arte" onclick="selectType('arte')">🎨 Arte</div>
           <div class="type-opt" data-type="foto" onclick="selectType('foto')">📸 Foto</div>
           <div class="type-opt" data-type="story" onclick="selectType('story')">📱 Story</div>
           <div class="type-opt" data-type="reels" onclick="selectType('reels')">🎬 Reels</div>
@@ -764,7 +775,7 @@
         <label>Título / Frase da Postagem</label>
         <input type="text" id="modalPostTitle" placeholder="Ex: Churrasco voltou">
       </div>
-      <div class="form-group" id="fieldImgObs" style="display:none">
+      <div class="form-group" id="fieldImgObs" style="">
         <label>Observações de Imagem / Vídeo</label>
         <textarea id="modalImgObs" placeholder="Descreva a imagem ideal, enquadramento, luz, referências…" style="min-height:120px"></textarea>
       </div>
@@ -781,16 +792,15 @@ Slide 2: …" style="min-height:160px"></textarea>
         <label>Nº de Slides</label>
         <input type="text" id="modalSlidesNum" placeholder="Ex: 6 slides">
       </div>
-      <div class="form-group" id="fieldCaption">
+      <div class="form-group" id="fieldCaption" style="">
         <label>Legenda completa</label>
         <textarea id="modalCaption" placeholder="Texto, hashtags, telefone…"></textarea>
       </div>
       <div class="form-group">
         <div class="mgal-label">Imagens / Fotos <span class="mgal-hint">— arraste ou clique em ＋</span></div>
-        <div class="modal-gallery" id="modalGallery" ondragover="event.preventDefault();this.classList.add('drag-over')" ondragleave="this.classList.remove('drag-over')" ondrop="handleDrop(event)">
-        </div>
+        <div class="modal-gallery" id="modalGallery" ondragover="event.preventDefault();this.classList.add('drag-over')" ondragleave="this.classList.remove('drag-over')" ondrop="handleDrop(event)"><button class="mgal-add" type="button"><span style="font-size:22px">＋</span><span class="lbl">foto</span></button></div>
       </div>
-      <div class="form-group" id="fieldVideoLink" style="display:none">
+      <div class="form-group" id="fieldVideoLink" style="">
         <label>🎬 Link do Vídeo / Referência</label>
         <input type="url" id="modalVideoLink" placeholder="https://…">
       </div>
@@ -859,9 +869,9 @@ Slide 2: …" style="min-height:160px"></textarea>
   </div>
 </div>
 
-<div class="toast" id="toast"></div>
+<div class="toast show" id="toast">⏳ Salvando no GitHub…</div>
 
-<script id="__persisted_state_script__">window.__PERSISTED_CALENDAR_STATE__=null;</script>
+<script id="__persisted_state_script__">window.__PERSISTED_CALENDAR_STATE__={"posts":[{"month":4,"day":1,"type":"arte","title":"Quem sou? — FIXAR","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Arte de apresentação pessoal e profissional para fixar no topo do perfil. Conexão imediata com quem chega pela primeira vez. Aproveitando o Dia da Mentira, o conceito pode brincar com \"verdades e mentiras\" sobre nutrição, despertando curiosidade.","imgObs":"Foto profissional do Glaubert em destaque. Texto principal: \"Quem sou?\". Subtexto com nome, CRN e área de atuação. Cores da identidade visual do perfil. Estética limpa e profissional.","roteiro":"","caption":"Prazer, Glaubert Couto. Nutricionista.\n\nHoje é Dia da Mentira, então bora começar com verdade.\n\nAlimentação não precisa ser sofrimento. Não existe fórmula mágica. E resultado de verdade vem com consistência, não com restrição.\n\nTrabalho com nutrição clínica e infantil — emagrecimento saudável, reeducação alimentar e introdução alimentar.\n\nSe você quer cuidar da alimentação de um jeito que faça sentido na sua vida… vem comigo.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":3,"type":"arte","title":"Fruta também vira briga aí?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Arte leve e identificadora para pais que enfrentam dificuldade na hora de oferecer frutas aos filhos. Tom acolhedor e bem-humorado. Gancho com a Sexta-Feira Santa. Gerar reconhecimento instantâneo.","imgObs":"Imagem ou ilustração de criança recusando fruta. Frase em destaque: \"Fruta também vira briga aí?\". Estética limpa, colorida, tom infantil.","roteiro":"","caption":"Todo mundo fala que criança tem que comer fruta. Mas ninguém avisa que na prática isso pode virar uma guerra.\n\nTem criança que recusa. Tem criança que só aceita uma. Tem criança que comia e do nada parou.\n\nAí vem a insistência, a receita escondida no suco, a negociação… e no final só sobra frustração.\n\nAntes de insistir no \"tem que comer\", vale entender o porquê da recusa. Pode ser textura, pode ser fase, pode ser o jeito como está sendo oferecido.\n\nCom orientação certa, dá pra tornar esse processo mais leve — pra criança e pra família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":7,"type":"arte","title":"Nem só de ovo e frango vive uma dieta!","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Quebra de mito com tom descontraído. Desmistificar a ideia de que dieta é monótona e sem graça. Mostrar que um plano alimentar bem feito é variado, saboroso e sustentável.","imgObs":"Imagem contrastando \"ovo e frango\" com pratos variados e coloridos. Frase principal em destaque. Estética clean, moderna, com toque de humor.","roteiro":"","caption":"Se pra você dieta ainda é sinônimo de ovo e frango no tupperware o dia inteiro… a gente precisa conversar.\n\nEssa ideia de que comer bem é chato e repetitivo é um dos maiores motivos que fazem as pessoas desistirem antes de ver resultado.\n\nUm plano alimentar bem feito tem variedade, tem sabor e tem espaço pra você gostar do que come. Quando você consegue manter a alimentação com prazer, a constância vem naturalmente. E constância é o que gera resultado.\n\nSe você tá preso nessa ideia de que dieta boa é dieta que sofre… tá na hora de mudar essa visão.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":9,"type":"carrossel","title":"Um dia comendo comigo e cuidando do corpo","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Dia completo de alimentação do próprio Glaubert. Humanizar o profissional, mostrar que nutricionista come de verdade. Inspirar com opções práticas e acessíveis.","imgObs":"Cada slide traz uma refeição com foto ou representação visual. Estética clean e apetitosa.","roteiro":"","slides":"Slide 1: Um dia comendo comigo e cuidando do corpo — Passe para o lado >>>\nSlide 2: ☀️ Café da manhã — Ovos mexidos + pão integral + café com leite + fruta\nSlide 3: 🍌 Lanche da manhã — Banana com aveia e canela\nSlide 4: 🍛 Almoço — Arroz, feijão, frango grelhado, salada colorida e legumes\nSlide 5: 🥜 Lanche da tarde — Iogurte natural com granola e mel\nSlide 6: 🌙 Jantar — Omelete com legumes + salada verde\nSlide 7: Isso é dieta? É. E é gostoso. Cuide da sua alimentação com quem entende.","caption":"\"Mas o que o nutricionista come no dia a dia?\"\n\nEssa é uma das perguntas que mais recebo. E a resposta pode te surpreender — porque não tem nada radical.\n\nCafé da manhã com ovos, pão e fruta. Lanche simples. Almoço com arroz e feijão. E por aí vai.\n\nComer bem não precisa ser complicado. Quando o plano é feito pra sua realidade, comer direito vira rotina — não sacrifício.\n\nSe você quer ver como seria o seu dia comendo melhor, agende sua consulta.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":14,"type":"carrossel","title":"Café faz bem para a sua dieta?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Carrossel educativo aproveitando o Dia Mundial do Café. Mitos e verdades sobre o consumo de café dentro de um plano alimentar. Tom leve, informativo.","imgObs":"Estética quente, tons de café. Cada slide traz uma informação curta e direta com visual atrativo.","roteiro":"","slides":"Slide 1: Café faz bem para a sua dieta? — Passe para o lado >>>\nSlide 2: O café por si só não engorda e nem emagrece.\nSlide 3: O problema não é o café… é o que vai junto. (Açúcar, creme, achocolatado)\nSlide 4: Cafeína pode ajudar no metabolismo e na disposição — com moderação.\nSlide 5: Quantidade ideal: de 3 a 4 xícaras por dia (cerca de 400mg de cafeína).\nSlide 6: Atenção: café em excesso pode atrapalhar o sono e aumentar a ansiedade.\nSlide 7: Café é aliado quando usado com consciência. Cuide da sua alimentação com orientação profissional.","caption":"☕ Dia Mundial do Café e você aí se perguntando se pode ou não pode.\n\nVou facilitar: café não engorda e não emagrece. O problema, na maioria das vezes, é o que vai junto — açúcar, creme, achocolatado, leite condensado…\n\nCom moderação, de 3 a 4 xícaras por dia, o café pode até ser aliado. Ajuda na disposição, tem propriedades antioxidantes e pode dar aquele gás no metabolismo.\n\nEm excesso, pode atrapalhar o sono e aumentar a ansiedade. Como quase tudo na nutrição, é sobre equilíbrio.\n\nSe você quer entender como encaixar o café e tudo mais na sua alimentação de forma inteligente… bora conversar.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":17,"type":"arte","title":"Introdução de alérgenos alimentares","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"https://www.thermofisher.com/allergy/wo/pt/living-with-allergies/food-allergies/how-to-introduce-food-allergens-to-children.html","slides":"","slidesNum":"","descricao":"Arte informativa e acolhedora para pais e responsáveis na fase da introdução alimentar. Transmitir confiança e orientação sobre a introdução de alimentos alergênicos.","imgObs":"Elementos ligados ao universo infantil e alimentar. Estética leve, limpa e confiável. Texto principal em destaque: \"Como introduzir os alérgenos alimentares às crianças com mais segurança?\"","roteiro":"","caption":"🥄 Introdução alimentar já gera muitas dúvidas. Quando o assunto são alimentos alergênicos, a insegurança aumenta ainda mais.\n\nOvo, leite de vaca, amendoim… o medo de uma reação e o excesso de informação desencontrada deixam muitos pais sem saber por onde começar.\n\nA verdade é que a introdução dos alérgenos precisa ser feita com orientação, atenção e individualidade. Entender o momento da criança, o histórico familiar e os sinais que precisam ser observados faz toda a diferença.\n\nCom informação de qualidade, essa fase deixa de ser medo e vira descoberta.\n\nSe esse tema gera dúvidas por aí, saiba que você não está sozinho. Acompanhamento profissional torna esse processo muito mais leve pra toda a família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":22,"type":"reels","title":"Seletividade não é frescura","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Reels de ~2 minutos. Quebra de crença + identificação + acolhimento + autoridade. Gancho forte, situações reais dos pais, \"teste de identificação\" e finalização com explicação + solução. Tom acolhedor, sem julgamento.","imgObs":"Câmera direta (principal — conexão). Cenas de apoio: criança recusando comida, prato, textura, rotina. Ritmo: início provocativo, meio explicativo, final emocional + leve.","roteiro":"🎯 CENA 1 — GANCHO\n🗣️ \"Seu filho não come… e todo mundo fala que é frescura?\"\n\n🎯 CENA 2 — IDENTIFICAÇÃO\n🗣️ \"Na hora da refeição vira negociação… vira insistência… às vezes até briga…\"\n\"E no final… você se sente frustrado… e sem saber o que fazer.\"\n\n🎯 CENA 3 — EMPATIA\n🗣️ \"E o pior é ouvir que isso é falta de limite… que é só 'não dar opção'… ou que 'quando a fome bater, ele come'…\"\n\"Mas na prática… não é assim que funciona.\"\n\n🎯 CENA 4 — TRANSIÇÃO\n🗣️ \"Deixa eu te mostrar uma coisa… responde isso aqui comigo.\"\n\n🎯 CENA 5 — SINAL 1\n🗣️ \"Seu filho recusa alimentos novos… mesmo quando você tenta várias vezes…?\"\n\n🎯 CENA 6 — SINAL 2\n🗣️ \"Só aceita sempre os mesmos alimentos… e qualquer coisa fora disso já vira problema?\"\n\n🎯 CENA 7 — SINAL 3\n🗣️ \"Se incomoda com textura… cheiro… aparência… e às vezes nem experimenta?\"\n\n🎯 CENA 8 — VIRADA\n🗣️ \"Se você se identificou com isso…\"\n\n🎯 CENA 9 — QUEBRA DE CRENÇA\n🗣️ \"Isso não é frescura. E não é falta de limite.\"\n\"Isso pode ser seletividade alimentar.\"\n\n🎯 CENA 10 — EXPLICAÇÃO\n🗣️ \"A seletividade alimentar envolve muito mais do que 'querer ou não comer'…\"\n\"Ela pode estar ligada a fatores sensoriais… emocionais… e ao desenvolvimento da criança.\"\n\n🎯 CENA 11 — ALERTA\n🗣️ \"E quando isso é tratado com pressão… com obrigação… ou com comparação…\"\n\"a tendência é piorar.\"\n\n🎯 CENA 12 — SOLUÇÃO\n🗣️ \"Porque o caminho não é forçar… é entender… respeitar… e conduzir da forma certa.\"\n\n🎯 CENA 13 — NUTRICIONISTA\n🗣️ \"E é exatamente por isso que o acompanhamento com um nutricionista infantil faz tanta diferença.\"\n\"Não é só sobre montar um cardápio…\"\n\"É sobre entender o comportamento da criança e construir uma relação saudável com a comida.\"\n\n🎯 CENA 14 — FECHAMENTO\n🗣️ \"Porque no final… não é só sobre alimentação…\"\n\"É sobre evitar traumas e tornar esse momento mais leve pra criança e pra família.\"\n\n🎯 CENA 15 — CTA FINAL\n🗣️ \"Se você passa por isso… procura ajuda.\"\n\"Você não precisa lidar com isso sozinho.\"","caption":"🍽️ Na hora da comida é sempre a mesma coisa… recusa, negociação, insistência. E no final, só frustração.\n\nMuitos pais passam por isso e quase sempre escutam: \"isso é frescura\", \"é só não dar opção\", \"quando a fome bater, ele come\".\n\nMas não é tão simples assim. A seletividade alimentar infantil envolve fatores sensoriais, emocionais e comportamentais que precisam ser compreendidos — não ignorados.\n\nQuando a criança é pressionada ou comparada, ela começa a associar alimentação com estresse. E o que era fase vira problema.\n\nO acompanhamento com nutricionista infantil faz toda a diferença. Não é só cardápio — é entender a criança e construir uma relação saudável com a comida.\n\nSe você vive isso, saiba: tem solução e você não precisa passar por isso sozinho.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":24,"type":"carrossel","title":"Um churrasco no final de semana, faz mal?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Desmistificar a ideia de que churrasco é inimigo da dieta. Com consciência e equilíbrio, dá pra aproveitar sem culpa. Tom descontraído, sem terrorismo nutricional.","imgObs":"Estética quente, imagens de churrasco. Cada slide com informação curta e visual atrativo.","roteiro":"","slides":"Slide 1: Um churrasco no final de semana, faz mal? — Passe para o lado >>>\nSlide 2: Churrasco não é o problema. O problema é o padrão da semana inteira.\nSlide 3: Escolhas inteligentes: prefira cortes magros, capriche na salada, modere nos acompanhamentos ultraprocessados.\nSlide 4: Cuidado com o que acompanha: pão de alho, farofa pronta, refrigerante e cerveja em excesso costumam pesar mais do que a carne.\nSlide 5: O segredo não é evitar o churrasco. É saber como aproveitar sem sabotar o processo.\nSlide 6: Quem tem um plano alimentar bem feito sabe que tem espaço pra tudo — inclusive pra uma picanha.\nSlide 7: Churrasco com consciência é churrasco sem culpa. Agende sua consulta.","caption":"🔥 Dia Internacional do Churrasco e você aí se perguntando se pode.\n\nPode.\n\nChurrasco não é vilão de dieta nenhuma. O que faz diferença não é um dia no fim de semana — é o que você faz nos outros seis.\n\nAgora, vale prestar atenção no que acompanha. Às vezes o que pesa não é a carne, é o pão de alho, a farofa pronta, o refrigerante e a cerveja sem fim.\n\nNão precisa cortar nada. Só ter consciência. Quem tem um plano alimentar feito sob medida sabe que tem espaço pra tudo — inclusive pra uma boa picanha.\n\nChurrasco com consciência é churrasco sem culpa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":27,"type":"arte","title":"Não existe dieta certa","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Posicionamento forte e direto. Quebrar a crença de que existe uma \"dieta ideal\" universal. Mensagem simples e profunda que gera reflexão.","imgObs":"Fundo clean (claro ou escuro com contraste). Destaque principal na frase. \"dieta certa\" pode vir menor. \"faz sentido pra você\" em maior destaque.","roteiro":"","caption":"Quantas vezes você já tentou seguir uma dieta que funcionou pra outra pessoa… e não funcionou pra você?\n\nE aí vem a frustração. A sensação de que o problema é você. Que falta disciplina. Que falta constância.\n\nMas o erro nunca esteve em você. Esteve no padrão que você tentou seguir.\n\nCada corpo responde de um jeito. Cada rotina tem suas limitações. E alimentação não é sobre copiar — é sobre construir algo que funcione na sua realidade.\n\nResultado de verdade não vem de intensidade. Vem de constância. E constância só existe quando faz sentido.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":29,"type":"carrossel","title":"5 frases que estão te sabotando","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Identificação + educação. Frases comuns que sabotam resultados sem a pessoa perceber. Cada slide com uma frase + explicação curta. Tom direto, acessível, sem julgamento.","imgObs":"Estética forte, tipografia em destaque. Cada slide com a frase \"sabotadora\" e a desconstrução embaixo.","roteiro":"","slides":"Slide 1: 5 frases que estão te sabotando — Passe para o lado >>>\nSlide 2: \"Segunda eu começo.\" → Adiar virou hábito. O melhor dia pra começar é o dia que você decide parar de esperar o momento perfeito.\nSlide 3: \"Vou cortar tudo.\" → Restrição radical gera compulsão. Quanto mais você proíbe, mais o corpo pede. Equilíbrio é o caminho.\nSlide 4: \"Comi besteira, estraguei tudo.\" → Um deslize não apaga o que você construiu. O erro é desistir por causa de um tropeço.\nSlide 5: \"Não tenho tempo pra comer direito.\" → Você não precisa de horas na cozinha. Precisa de um plano que caiba na sua rotina.\nSlide 6: \"Fulano emagreceu com essa dieta, vou fazer igual.\" → O que funcionou pra outra pessoa pode não funcionar pra você. Cada corpo é único.\nSlide 7: Se você se identificou com alguma dessas frases, talvez seja hora de mudar a forma como você enxerga alimentação. Agende sua consulta.","caption":"Às vezes o que te trava não é a falta de dieta. É o que você repete pra si mesmo todo dia.\n\n\"Segunda eu começo.\" \"Vou cortar tudo.\" \"Comi besteira, estraguei tudo.\" \"Não tenho tempo.\" \"Fulano emagreceu assim, vou fazer igual.\"\n\nCada uma dessas frases esconde uma crença que te sabota sem você perceber. Adiar gera ansiedade. Restringir gera compulsão. Se culpar gera desistência. Comparar gera frustração.\n\nAlimentação saudável começa quando você para de se punir e começa a se entender. Com orientação certa, no tempo certo, respeitando o seu corpo e a sua rotina.\n\nSe você quer parar de sabotar seus próprios resultados… bora mudar essa conversa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":1,"day":4,"type":"arte","title":"teste","caption":"","imgObs":"","roteiro":"","videoLink":"","slides":"","slidesNum":"","pending":false,"postado":false,"trafego":false,"imgs":[]}],"planData":{"1":{},"2":{},"3":{},"4":{"objetivos":"Iniciar Material mais leve para depois começar a produzir material mais profissional.","investimento":"500 reais","trafego":"500 reais em meta ads","influenciadores":"Nenhum.","persona":"Público geral de 25 a 40 anos.","observacoes":"Captação no dia 1 de abril."},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"12":{}},"monthsConfig":[{"year":2026,"month":1,"firstDow":4,"days":31,"notes":"","special":{"1":"🎆 Ano Novo"}},{"year":2026,"month":2,"firstDow":0,"days":28,"notes":"","special":{"16":"🎭 Carnaval","17":"🎭 Carnaval","18":"🎭 Quarta de Cinzas"}},{"year":2026,"month":3,"firstDow":0,"days":31,"notes":"","special":{"8":"👩 Dia da Mulher","20":"🌿 Início do Outono"}},{"year":2026,"month":4,"firstDow":3,"days":30,"notes":"Glaubert Couto Nutricionista — 10 posts planejados · @gcoutonutri","special":{"1":"🤥 Dia da Mentira","3":"✝️ Sexta-Feira Santa","5":"🐣 Páscoa","6":"🙏 São Benedito","7":"🌍 Dia Mundial da Saúde","14":"☕ Dia Mundial do Café","21":"🇧🇷 Tiradentes","22":"🌍 Dia da Terra","24":"🥩 Dia Int. do Churrasco","28":"👵 Dia da Sogra"}},{"year":2026,"month":5,"firstDow":5,"days":31,"notes":"","special":{"10":"💐 Dia das Mães"}},{"year":2026,"month":6,"firstDow":1,"days":30,"notes":"","special":{"5":"🌍 Meio Ambiente","12":"💑 Dia dos Namorados"}},{"year":2026,"month":7,"firstDow":3,"days":31,"notes":"","special":{}},{"year":2026,"month":8,"firstDow":6,"days":31,"notes":"","special":{"9":"👨 Dia dos Pais"}},{"year":2026,"month":9,"firstDow":2,"days":30,"notes":"","special":{"7":"🇧🇷 Independência"}},{"year":2026,"month":10,"firstDow":4,"days":31,"notes":"","special":{"12":"🇧🇷 N.Sra. Aparecida","31":"🎃 Halloween"}},{"year":2026,"month":11,"firstDow":0,"days":30,"notes":"","special":{"2":"✝️ Finados","15":"🇧🇷 Proclamação Rep.","20":"⚫ Black Friday"}},{"year":2026,"month":12,"firstDow":2,"days":31,"notes":"","special":{"25":"🎄 Natal","31":"🥂 Réveillon"}}],"header":{"client":"Glaubert Couto Nutricionista","year":"2026","sub":"CALENDÁRIO EDITORIAL 2026 · @GCOUTONUTRI"}};</script>
 
 <script>
 const MONTH_NAMES = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
@@ -891,25 +901,355 @@ function resetToken(){
 }
 
 const MONTHS_CONFIG = [
-  { year:2026, month:1,  firstDow:4, days:31, notes:'', special:{1:'🎆 Ano Novo'} },
-  { year:2026, month:2,  firstDow:0, days:28, notes:'', special:{16:'🎭 Carnaval',17:'🎭 Carnaval',18:'🎭 Quarta de Cinzas'} },
-  { year:2026, month:3,  firstDow:0, days:31, notes:'', special:{8:'👩 Dia da Mulher',20:'🌿 Início do Outono'} },
-  { year:2026, month:4,  firstDow:3, days:30, notes:'Glaubert Couto Nutricionista — 10 posts planejados · @gcoutonutri', special:{1:'🤥 Dia da Mentira',3:'✝️ Sexta-Feira Santa',5:'🐣 Páscoa',6:'🙏 São Benedito',7:'🌍 Dia Mundial da Saúde',14:'☕ Dia Mundial do Café',21:'🇧🇷 Tiradentes',22:'🌍 Dia da Terra',24:'🥩 Dia Int. do Churrasco',28:'👵 Dia da Sogra'} },
-  { year:2026, month:5,  firstDow:5, days:31, notes:'', special:{10:'💐 Dia das Mães'} },
-  { year:2026, month:6,  firstDow:1, days:30, notes:'', special:{5:'🌍 Meio Ambiente',12:'💑 Dia dos Namorados'} },
-  { year:2026, month:7,  firstDow:3, days:31, notes:'', special:{} },
-  { year:2026, month:8,  firstDow:6, days:31, notes:'', special:{9:'👨 Dia dos Pais'} },
-  { year:2026, month:9,  firstDow:2, days:30, notes:'', special:{7:'🇧🇷 Independência'} },
-  { year:2026, month:10, firstDow:4, days:31, notes:'', special:{12:'🇧🇷 N.Sra. Aparecida',31:'🎃 Halloween'} },
-  { year:2026, month:11, firstDow:0, days:30, notes:'', special:{2:'✝️ Finados',15:'🇧🇷 Proclamação Rep.',20:'⚫ Black Friday'} },
-  { year:2026, month:12, firstDow:2, days:31, notes:'', special:{25:'🎄 Natal',31:'🥂 Réveillon'} }
+  {
+    "year": 2026,
+    "month": 1,
+    "firstDow": 4,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "1": "🎆 Ano Novo"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "firstDow": 0,
+    "days": 28,
+    "notes": "",
+    "special": {
+      "16": "🎭 Carnaval",
+      "17": "🎭 Carnaval",
+      "18": "🎭 Quarta de Cinzas"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "firstDow": 0,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "8": "👩 Dia da Mulher",
+      "20": "🌿 Início do Outono"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "firstDow": 3,
+    "days": 30,
+    "notes": "Glaubert Couto Nutricionista — 10 posts planejados · @gcoutonutri",
+    "special": {
+      "1": "🤥 Dia da Mentira",
+      "3": "✝️ Sexta-Feira Santa",
+      "5": "🐣 Páscoa",
+      "6": "🙏 São Benedito",
+      "7": "🌍 Dia Mundial da Saúde",
+      "14": "☕ Dia Mundial do Café",
+      "21": "🇧🇷 Tiradentes",
+      "22": "🌍 Dia da Terra",
+      "24": "🥩 Dia Int. do Churrasco",
+      "28": "👵 Dia da Sogra"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "firstDow": 5,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "10": "💐 Dia das Mães"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "firstDow": 1,
+    "days": 30,
+    "notes": "",
+    "special": {
+      "5": "🌍 Meio Ambiente",
+      "12": "💑 Dia dos Namorados"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "firstDow": 3,
+    "days": 31,
+    "notes": "",
+    "special": {}
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "firstDow": 6,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "9": "👨 Dia dos Pais"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "firstDow": 2,
+    "days": 30,
+    "notes": "",
+    "special": {
+      "7": "🇧🇷 Independência"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "firstDow": 4,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "12": "🇧🇷 N.Sra. Aparecida",
+      "31": "🎃 Halloween"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "firstDow": 0,
+    "days": 30,
+    "notes": "",
+    "special": {
+      "2": "✝️ Finados",
+      "15": "🇧🇷 Proclamação Rep.",
+      "20": "⚫ Black Friday"
+    }
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "firstDow": 2,
+    "days": 31,
+    "notes": "",
+    "special": {
+      "25": "🎄 Natal",
+      "31": "🥂 Réveillon"
+    }
+  }
 ];
 
-let POSTS = [{"month":4,"day":1,"type":"arte","title":"Quem sou? — FIXAR","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Arte de apresentação pessoal e profissional para fixar no topo do perfil. Conexão imediata com quem chega pela primeira vez. Aproveitando o Dia da Mentira, o conceito pode brincar com \"verdades e mentiras\" sobre nutrição, despertando curiosidade.","imgObs":"Foto profissional do Glaubert em destaque. Texto principal: \"Quem sou?\". Subtexto com nome, CRN e área de atuação. Cores da identidade visual do perfil. Estética limpa e profissional.","roteiro":"","caption":"Prazer, Glaubert Couto. Nutricionista.\n\nHoje é Dia da Mentira, então bora começar com verdade.\n\nAlimentação não precisa ser sofrimento. Não existe fórmula mágica. E resultado de verdade vem com consistência, não com restrição.\n\nTrabalho com nutrição clínica e infantil — emagrecimento saudável, reeducação alimentar e introdução alimentar.\n\nSe você quer cuidar da alimentação de um jeito que faça sentido na sua vida… vem comigo.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":3,"type":"arte","title":"Fruta também vira briga aí?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Arte leve e identificadora para pais que enfrentam dificuldade na hora de oferecer frutas aos filhos. Tom acolhedor e bem-humorado. Gancho com a Sexta-Feira Santa. Gerar reconhecimento instantâneo.","imgObs":"Imagem ou ilustração de criança recusando fruta. Frase em destaque: \"Fruta também vira briga aí?\". Estética limpa, colorida, tom infantil.","roteiro":"","caption":"Todo mundo fala que criança tem que comer fruta. Mas ninguém avisa que na prática isso pode virar uma guerra.\n\nTem criança que recusa. Tem criança que só aceita uma. Tem criança que comia e do nada parou.\n\nAí vem a insistência, a receita escondida no suco, a negociação… e no final só sobra frustração.\n\nAntes de insistir no \"tem que comer\", vale entender o porquê da recusa. Pode ser textura, pode ser fase, pode ser o jeito como está sendo oferecido.\n\nCom orientação certa, dá pra tornar esse processo mais leve — pra criança e pra família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":7,"type":"arte","title":"Nem só de ovo e frango vive uma dieta!","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Quebra de mito com tom descontraído. Desmistificar a ideia de que dieta é monótona e sem graça. Mostrar que um plano alimentar bem feito é variado, saboroso e sustentável.","imgObs":"Imagem contrastando \"ovo e frango\" com pratos variados e coloridos. Frase principal em destaque. Estética clean, moderna, com toque de humor.","roteiro":"","caption":"Se pra você dieta ainda é sinônimo de ovo e frango no tupperware o dia inteiro… a gente precisa conversar.\n\nEssa ideia de que comer bem é chato e repetitivo é um dos maiores motivos que fazem as pessoas desistirem antes de ver resultado.\n\nUm plano alimentar bem feito tem variedade, tem sabor e tem espaço pra você gostar do que come. Quando você consegue manter a alimentação com prazer, a constância vem naturalmente. E constância é o que gera resultado.\n\nSe você tá preso nessa ideia de que dieta boa é dieta que sofre… tá na hora de mudar essa visão.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":9,"type":"carrossel","title":"Um dia comendo comigo e cuidando do corpo","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Dia completo de alimentação do próprio Glaubert. Humanizar o profissional, mostrar que nutricionista come de verdade. Inspirar com opções práticas e acessíveis.","imgObs":"Cada slide traz uma refeição com foto ou representação visual. Estética clean e apetitosa.","roteiro":"","slides":"Slide 1: Um dia comendo comigo e cuidando do corpo — Passe para o lado >>>\nSlide 2: ☀️ Café da manhã — Ovos mexidos + pão integral + café com leite + fruta\nSlide 3: 🍌 Lanche da manhã — Banana com aveia e canela\nSlide 4: 🍛 Almoço — Arroz, feijão, frango grelhado, salada colorida e legumes\nSlide 5: 🥜 Lanche da tarde — Iogurte natural com granola e mel\nSlide 6: 🌙 Jantar — Omelete com legumes + salada verde\nSlide 7: Isso é dieta? É. E é gostoso. Cuide da sua alimentação com quem entende.","caption":"\"Mas o que o nutricionista come no dia a dia?\"\n\nEssa é uma das perguntas que mais recebo. E a resposta pode te surpreender — porque não tem nada radical.\n\nCafé da manhã com ovos, pão e fruta. Lanche simples. Almoço com arroz e feijão. E por aí vai.\n\nComer bem não precisa ser complicado. Quando o plano é feito pra sua realidade, comer direito vira rotina — não sacrifício.\n\nSe você quer ver como seria o seu dia comendo melhor, agende sua consulta.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":14,"type":"carrossel","title":"Café faz bem para a sua dieta?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Carrossel educativo aproveitando o Dia Mundial do Café. Mitos e verdades sobre o consumo de café dentro de um plano alimentar. Tom leve, informativo.","imgObs":"Estética quente, tons de café. Cada slide traz uma informação curta e direta com visual atrativo.","roteiro":"","slides":"Slide 1: Café faz bem para a sua dieta? — Passe para o lado >>>\nSlide 2: O café por si só não engorda e nem emagrece.\nSlide 3: O problema não é o café… é o que vai junto. (Açúcar, creme, achocolatado)\nSlide 4: Cafeína pode ajudar no metabolismo e na disposição — com moderação.\nSlide 5: Quantidade ideal: de 3 a 4 xícaras por dia (cerca de 400mg de cafeína).\nSlide 6: Atenção: café em excesso pode atrapalhar o sono e aumentar a ansiedade.\nSlide 7: Café é aliado quando usado com consciência. Cuide da sua alimentação com orientação profissional.","caption":"☕ Dia Mundial do Café e você aí se perguntando se pode ou não pode.\n\nVou facilitar: café não engorda e não emagrece. O problema, na maioria das vezes, é o que vai junto — açúcar, creme, achocolatado, leite condensado…\n\nCom moderação, de 3 a 4 xícaras por dia, o café pode até ser aliado. Ajuda na disposição, tem propriedades antioxidantes e pode dar aquele gás no metabolismo.\n\nEm excesso, pode atrapalhar o sono e aumentar a ansiedade. Como quase tudo na nutrição, é sobre equilíbrio.\n\nSe você quer entender como encaixar o café e tudo mais na sua alimentação de forma inteligente… bora conversar.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":17,"type":"arte","title":"Introdução de alérgenos alimentares","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"https://www.thermofisher.com/allergy/wo/pt/living-with-allergies/food-allergies/how-to-introduce-food-allergens-to-children.html","slides":"","slidesNum":"","descricao":"Arte informativa e acolhedora para pais e responsáveis na fase da introdução alimentar. Transmitir confiança e orientação sobre a introdução de alimentos alergênicos.","imgObs":"Elementos ligados ao universo infantil e alimentar. Estética leve, limpa e confiável. Texto principal em destaque: \"Como introduzir os alérgenos alimentares às crianças com mais segurança?\"","roteiro":"","caption":"🥄 Introdução alimentar já gera muitas dúvidas. Quando o assunto são alimentos alergênicos, a insegurança aumenta ainda mais.\n\nOvo, leite de vaca, amendoim… o medo de uma reação e o excesso de informação desencontrada deixam muitos pais sem saber por onde começar.\n\nA verdade é que a introdução dos alérgenos precisa ser feita com orientação, atenção e individualidade. Entender o momento da criança, o histórico familiar e os sinais que precisam ser observados faz toda a diferença.\n\nCom informação de qualidade, essa fase deixa de ser medo e vira descoberta.\n\nSe esse tema gera dúvidas por aí, saiba que você não está sozinho. Acompanhamento profissional torna esse processo muito mais leve pra toda a família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":22,"type":"reels","title":"Seletividade não é frescura","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Reels de ~2 minutos. Quebra de crença + identificação + acolhimento + autoridade. Gancho forte, situações reais dos pais, \"teste de identificação\" e finalização com explicação + solução. Tom acolhedor, sem julgamento.","imgObs":"Câmera direta (principal — conexão). Cenas de apoio: criança recusando comida, prato, textura, rotina. Ritmo: início provocativo, meio explicativo, final emocional + leve.","roteiro":"🎯 CENA 1 — GANCHO\n🗣️ \"Seu filho não come… e todo mundo fala que é frescura?\"\n\n🎯 CENA 2 — IDENTIFICAÇÃO\n🗣️ \"Na hora da refeição vira negociação… vira insistência… às vezes até briga…\"\n\"E no final… você se sente frustrado… e sem saber o que fazer.\"\n\n🎯 CENA 3 — EMPATIA\n🗣️ \"E o pior é ouvir que isso é falta de limite… que é só 'não dar opção'… ou que 'quando a fome bater, ele come'…\"\n\"Mas na prática… não é assim que funciona.\"\n\n🎯 CENA 4 — TRANSIÇÃO\n🗣️ \"Deixa eu te mostrar uma coisa… responde isso aqui comigo.\"\n\n🎯 CENA 5 — SINAL 1\n🗣️ \"Seu filho recusa alimentos novos… mesmo quando você tenta várias vezes…?\"\n\n🎯 CENA 6 — SINAL 2\n🗣️ \"Só aceita sempre os mesmos alimentos… e qualquer coisa fora disso já vira problema?\"\n\n🎯 CENA 7 — SINAL 3\n🗣️ \"Se incomoda com textura… cheiro… aparência… e às vezes nem experimenta?\"\n\n🎯 CENA 8 — VIRADA\n🗣️ \"Se você se identificou com isso…\"\n\n🎯 CENA 9 — QUEBRA DE CRENÇA\n🗣️ \"Isso não é frescura. E não é falta de limite.\"\n\"Isso pode ser seletividade alimentar.\"\n\n🎯 CENA 10 — EXPLICAÇÃO\n🗣️ \"A seletividade alimentar envolve muito mais do que 'querer ou não comer'…\"\n\"Ela pode estar ligada a fatores sensoriais… emocionais… e ao desenvolvimento da criança.\"\n\n🎯 CENA 11 — ALERTA\n🗣️ \"E quando isso é tratado com pressão… com obrigação… ou com comparação…\"\n\"a tendência é piorar.\"\n\n🎯 CENA 12 — SOLUÇÃO\n🗣️ \"Porque o caminho não é forçar… é entender… respeitar… e conduzir da forma certa.\"\n\n🎯 CENA 13 — NUTRICIONISTA\n🗣️ \"E é exatamente por isso que o acompanhamento com um nutricionista infantil faz tanta diferença.\"\n\"Não é só sobre montar um cardápio…\"\n\"É sobre entender o comportamento da criança e construir uma relação saudável com a comida.\"\n\n🎯 CENA 14 — FECHAMENTO\n🗣️ \"Porque no final… não é só sobre alimentação…\"\n\"É sobre evitar traumas e tornar esse momento mais leve pra criança e pra família.\"\n\n🎯 CENA 15 — CTA FINAL\n🗣️ \"Se você passa por isso… procura ajuda.\"\n\"Você não precisa lidar com isso sozinho.\"","caption":"🍽️ Na hora da comida é sempre a mesma coisa… recusa, negociação, insistência. E no final, só frustração.\n\nMuitos pais passam por isso e quase sempre escutam: \"isso é frescura\", \"é só não dar opção\", \"quando a fome bater, ele come\".\n\nMas não é tão simples assim. A seletividade alimentar infantil envolve fatores sensoriais, emocionais e comportamentais que precisam ser compreendidos — não ignorados.\n\nQuando a criança é pressionada ou comparada, ela começa a associar alimentação com estresse. E o que era fase vira problema.\n\nO acompanhamento com nutricionista infantil faz toda a diferença. Não é só cardápio — é entender a criança e construir uma relação saudável com a comida.\n\nSe você vive isso, saiba: tem solução e você não precisa passar por isso sozinho.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":24,"type":"carrossel","title":"Um churrasco no final de semana, faz mal?","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Desmistificar a ideia de que churrasco é inimigo da dieta. Com consciência e equilíbrio, dá pra aproveitar sem culpa. Tom descontraído, sem terrorismo nutricional.","imgObs":"Estética quente, imagens de churrasco. Cada slide com informação curta e visual atrativo.","roteiro":"","slides":"Slide 1: Um churrasco no final de semana, faz mal? — Passe para o lado >>>\nSlide 2: Churrasco não é o problema. O problema é o padrão da semana inteira.\nSlide 3: Escolhas inteligentes: prefira cortes magros, capriche na salada, modere nos acompanhamentos ultraprocessados.\nSlide 4: Cuidado com o que acompanha: pão de alho, farofa pronta, refrigerante e cerveja em excesso costumam pesar mais do que a carne.\nSlide 5: O segredo não é evitar o churrasco. É saber como aproveitar sem sabotar o processo.\nSlide 6: Quem tem um plano alimentar bem feito sabe que tem espaço pra tudo — inclusive pra uma picanha.\nSlide 7: Churrasco com consciência é churrasco sem culpa. Agende sua consulta.","caption":"🔥 Dia Internacional do Churrasco e você aí se perguntando se pode.\n\nPode.\n\nChurrasco não é vilão de dieta nenhuma. O que faz diferença não é um dia no fim de semana — é o que você faz nos outros seis.\n\nAgora, vale prestar atenção no que acompanha. Às vezes o que pesa não é a carne, é o pão de alho, a farofa pronta, o refrigerante e a cerveja sem fim.\n\nNão precisa cortar nada. Só ter consciência. Quem tem um plano alimentar feito sob medida sabe que tem espaço pra tudo — inclusive pra uma boa picanha.\n\nChurrasco com consciência é churrasco sem culpa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":27,"type":"arte","title":"Não existe dieta certa","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slides":"","slidesNum":"","descricao":"Posicionamento forte e direto. Quebrar a crença de que existe uma \"dieta ideal\" universal. Mensagem simples e profunda que gera reflexão.","imgObs":"Fundo clean (claro ou escuro com contraste). Destaque principal na frase. \"dieta certa\" pode vir menor. \"faz sentido pra você\" em maior destaque.","roteiro":"","caption":"Quantas vezes você já tentou seguir uma dieta que funcionou pra outra pessoa… e não funcionou pra você?\n\nE aí vem a frustração. A sensação de que o problema é você. Que falta disciplina. Que falta constância.\n\nMas o erro nunca esteve em você. Esteve no padrão que você tentou seguir.\n\nCada corpo responde de um jeito. Cada rotina tem suas limitações. E alimentação não é sobre copiar — é sobre construir algo que funcione na sua realidade.\n\nResultado de verdade não vem de intensidade. Vem de constância. E constância só existe quando faz sentido.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"},{"month":4,"day":29,"type":"carrossel","title":"5 frases que estão te sabotando","pending":false,"trafego":false,"postado":false,"imgs":[],"videoLink":"","slidesNum":"7 slides","descricao":"Identificação + educação. Frases comuns que sabotam resultados sem a pessoa perceber. Cada slide com uma frase + explicação curta. Tom direto, acessível, sem julgamento.","imgObs":"Estética forte, tipografia em destaque. Cada slide com a frase \"sabotadora\" e a desconstrução embaixo.","roteiro":"","slides":"Slide 1: 5 frases que estão te sabotando — Passe para o lado >>>\nSlide 2: \"Segunda eu começo.\" → Adiar virou hábito. O melhor dia pra começar é o dia que você decide parar de esperar o momento perfeito.\nSlide 3: \"Vou cortar tudo.\" → Restrição radical gera compulsão. Quanto mais você proíbe, mais o corpo pede. Equilíbrio é o caminho.\nSlide 4: \"Comi besteira, estraguei tudo.\" → Um deslize não apaga o que você construiu. O erro é desistir por causa de um tropeço.\nSlide 5: \"Não tenho tempo pra comer direito.\" → Você não precisa de horas na cozinha. Precisa de um plano que caiba na sua rotina.\nSlide 6: \"Fulano emagreceu com essa dieta, vou fazer igual.\" → O que funcionou pra outra pessoa pode não funcionar pra você. Cada corpo é único.\nSlide 7: Se você se identificou com alguma dessas frases, talvez seja hora de mudar a forma como você enxerga alimentação. Agende sua consulta.","caption":"Às vezes o que te trava não é a falta de dieta. É o que você repete pra si mesmo todo dia.\n\n\"Segunda eu começo.\" \"Vou cortar tudo.\" \"Comi besteira, estraguei tudo.\" \"Não tenho tempo.\" \"Fulano emagreceu assim, vou fazer igual.\"\n\nCada uma dessas frases esconde uma crença que te sabota sem você perceber. Adiar gera ansiedade. Restringir gera compulsão. Se culpar gera desistência. Comparar gera frustração.\n\nAlimentação saudável começa quando você para de se punir e começa a se entender. Com orientação certa, no tempo certo, respeitando o seu corpo e a sua rotina.\n\nSe você quer parar de sabotar seus próprios resultados… bora mudar essa conversa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"}];
+let POSTS = [
+  {
+    "month": 4,
+    "day": 1,
+    "type": "arte",
+    "title": "Quem sou? — FIXAR",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Arte de apresentação pessoal e profissional para fixar no topo do perfil. Conexão imediata com quem chega pela primeira vez. Aproveitando o Dia da Mentira, o conceito pode brincar com \"verdades e mentiras\" sobre nutrição, despertando curiosidade.",
+    "imgObs": "Foto profissional do Glaubert em destaque. Texto principal: \"Quem sou?\". Subtexto com nome, CRN e área de atuação. Cores da identidade visual do perfil. Estética limpa e profissional.",
+    "roteiro": "",
+    "caption": "Prazer, Glaubert Couto. Nutricionista.\n\nHoje é Dia da Mentira, então bora começar com verdade.\n\nAlimentação não precisa ser sofrimento. Não existe fórmula mágica. E resultado de verdade vem com consistência, não com restrição.\n\nTrabalho com nutrição clínica e infantil — emagrecimento saudável, reeducação alimentar e introdução alimentar.\n\nSe você quer cuidar da alimentação de um jeito que faça sentido na sua vida… vem comigo.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 3,
+    "type": "arte",
+    "title": "Fruta também vira briga aí?",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Arte leve e identificadora para pais que enfrentam dificuldade na hora de oferecer frutas aos filhos. Tom acolhedor e bem-humorado. Gancho com a Sexta-Feira Santa. Gerar reconhecimento instantâneo.",
+    "imgObs": "Imagem ou ilustração de criança recusando fruta. Frase em destaque: \"Fruta também vira briga aí?\". Estética limpa, colorida, tom infantil.",
+    "roteiro": "",
+    "caption": "Todo mundo fala que criança tem que comer fruta. Mas ninguém avisa que na prática isso pode virar uma guerra.\n\nTem criança que recusa. Tem criança que só aceita uma. Tem criança que comia e do nada parou.\n\nAí vem a insistência, a receita escondida no suco, a negociação… e no final só sobra frustração.\n\nAntes de insistir no \"tem que comer\", vale entender o porquê da recusa. Pode ser textura, pode ser fase, pode ser o jeito como está sendo oferecido.\n\nCom orientação certa, dá pra tornar esse processo mais leve — pra criança e pra família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 7,
+    "type": "arte",
+    "title": "Nem só de ovo e frango vive uma dieta!",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Quebra de mito com tom descontraído. Desmistificar a ideia de que dieta é monótona e sem graça. Mostrar que um plano alimentar bem feito é variado, saboroso e sustentável.",
+    "imgObs": "Imagem contrastando \"ovo e frango\" com pratos variados e coloridos. Frase principal em destaque. Estética clean, moderna, com toque de humor.",
+    "roteiro": "",
+    "caption": "Se pra você dieta ainda é sinônimo de ovo e frango no tupperware o dia inteiro… a gente precisa conversar.\n\nEssa ideia de que comer bem é chato e repetitivo é um dos maiores motivos que fazem as pessoas desistirem antes de ver resultado.\n\nUm plano alimentar bem feito tem variedade, tem sabor e tem espaço pra você gostar do que come. Quando você consegue manter a alimentação com prazer, a constância vem naturalmente. E constância é o que gera resultado.\n\nSe você tá preso nessa ideia de que dieta boa é dieta que sofre… tá na hora de mudar essa visão.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 9,
+    "type": "carrossel",
+    "title": "Um dia comendo comigo e cuidando do corpo",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slidesNum": "7 slides",
+    "descricao": "Dia completo de alimentação do próprio Glaubert. Humanizar o profissional, mostrar que nutricionista come de verdade. Inspirar com opções práticas e acessíveis.",
+    "imgObs": "Cada slide traz uma refeição com foto ou representação visual. Estética clean e apetitosa.",
+    "roteiro": "",
+    "slides": "Slide 1: Um dia comendo comigo e cuidando do corpo — Passe para o lado >>>\nSlide 2: ☀️ Café da manhã — Ovos mexidos + pão integral + café com leite + fruta\nSlide 3: 🍌 Lanche da manhã — Banana com aveia e canela\nSlide 4: 🍛 Almoço — Arroz, feijão, frango grelhado, salada colorida e legumes\nSlide 5: 🥜 Lanche da tarde — Iogurte natural com granola e mel\nSlide 6: 🌙 Jantar — Omelete com legumes + salada verde\nSlide 7: Isso é dieta? É. E é gostoso. Cuide da sua alimentação com quem entende.",
+    "caption": "\"Mas o que o nutricionista come no dia a dia?\"\n\nEssa é uma das perguntas que mais recebo. E a resposta pode te surpreender — porque não tem nada radical.\n\nCafé da manhã com ovos, pão e fruta. Lanche simples. Almoço com arroz e feijão. E por aí vai.\n\nComer bem não precisa ser complicado. Quando o plano é feito pra sua realidade, comer direito vira rotina — não sacrifício.\n\nSe você quer ver como seria o seu dia comendo melhor, agende sua consulta.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 14,
+    "type": "carrossel",
+    "title": "Café faz bem para a sua dieta?",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slidesNum": "7 slides",
+    "descricao": "Carrossel educativo aproveitando o Dia Mundial do Café. Mitos e verdades sobre o consumo de café dentro de um plano alimentar. Tom leve, informativo.",
+    "imgObs": "Estética quente, tons de café. Cada slide traz uma informação curta e direta com visual atrativo.",
+    "roteiro": "",
+    "slides": "Slide 1: Café faz bem para a sua dieta? — Passe para o lado >>>\nSlide 2: O café por si só não engorda e nem emagrece.\nSlide 3: O problema não é o café… é o que vai junto. (Açúcar, creme, achocolatado)\nSlide 4: Cafeína pode ajudar no metabolismo e na disposição — com moderação.\nSlide 5: Quantidade ideal: de 3 a 4 xícaras por dia (cerca de 400mg de cafeína).\nSlide 6: Atenção: café em excesso pode atrapalhar o sono e aumentar a ansiedade.\nSlide 7: Café é aliado quando usado com consciência. Cuide da sua alimentação com orientação profissional.",
+    "caption": "☕ Dia Mundial do Café e você aí se perguntando se pode ou não pode.\n\nVou facilitar: café não engorda e não emagrece. O problema, na maioria das vezes, é o que vai junto — açúcar, creme, achocolatado, leite condensado…\n\nCom moderação, de 3 a 4 xícaras por dia, o café pode até ser aliado. Ajuda na disposição, tem propriedades antioxidantes e pode dar aquele gás no metabolismo.\n\nEm excesso, pode atrapalhar o sono e aumentar a ansiedade. Como quase tudo na nutrição, é sobre equilíbrio.\n\nSe você quer entender como encaixar o café e tudo mais na sua alimentação de forma inteligente… bora conversar.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 17,
+    "type": "arte",
+    "title": "Introdução de alérgenos alimentares",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "https://www.thermofisher.com/allergy/wo/pt/living-with-allergies/food-allergies/how-to-introduce-food-allergens-to-children.html",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Arte informativa e acolhedora para pais e responsáveis na fase da introdução alimentar. Transmitir confiança e orientação sobre a introdução de alimentos alergênicos.",
+    "imgObs": "Elementos ligados ao universo infantil e alimentar. Estética leve, limpa e confiável. Texto principal em destaque: \"Como introduzir os alérgenos alimentares às crianças com mais segurança?\"",
+    "roteiro": "",
+    "caption": "🥄 Introdução alimentar já gera muitas dúvidas. Quando o assunto são alimentos alergênicos, a insegurança aumenta ainda mais.\n\nOvo, leite de vaca, amendoim… o medo de uma reação e o excesso de informação desencontrada deixam muitos pais sem saber por onde começar.\n\nA verdade é que a introdução dos alérgenos precisa ser feita com orientação, atenção e individualidade. Entender o momento da criança, o histórico familiar e os sinais que precisam ser observados faz toda a diferença.\n\nCom informação de qualidade, essa fase deixa de ser medo e vira descoberta.\n\nSe esse tema gera dúvidas por aí, saiba que você não está sozinho. Acompanhamento profissional torna esse processo muito mais leve pra toda a família.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 22,
+    "type": "reels",
+    "title": "Seletividade não é frescura",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Reels de ~2 minutos. Quebra de crença + identificação + acolhimento + autoridade. Gancho forte, situações reais dos pais, \"teste de identificação\" e finalização com explicação + solução. Tom acolhedor, sem julgamento.",
+    "imgObs": "Câmera direta (principal — conexão). Cenas de apoio: criança recusando comida, prato, textura, rotina. Ritmo: início provocativo, meio explicativo, final emocional + leve.",
+    "roteiro": "🎯 CENA 1 — GANCHO\n🗣️ \"Seu filho não come… e todo mundo fala que é frescura?\"\n\n🎯 CENA 2 — IDENTIFICAÇÃO\n🗣️ \"Na hora da refeição vira negociação… vira insistência… às vezes até briga…\"\n\"E no final… você se sente frustrado… e sem saber o que fazer.\"\n\n🎯 CENA 3 — EMPATIA\n🗣️ \"E o pior é ouvir que isso é falta de limite… que é só 'não dar opção'… ou que 'quando a fome bater, ele come'…\"\n\"Mas na prática… não é assim que funciona.\"\n\n🎯 CENA 4 — TRANSIÇÃO\n🗣️ \"Deixa eu te mostrar uma coisa… responde isso aqui comigo.\"\n\n🎯 CENA 5 — SINAL 1\n🗣️ \"Seu filho recusa alimentos novos… mesmo quando você tenta várias vezes…?\"\n\n🎯 CENA 6 — SINAL 2\n🗣️ \"Só aceita sempre os mesmos alimentos… e qualquer coisa fora disso já vira problema?\"\n\n🎯 CENA 7 — SINAL 3\n🗣️ \"Se incomoda com textura… cheiro… aparência… e às vezes nem experimenta?\"\n\n🎯 CENA 8 — VIRADA\n🗣️ \"Se você se identificou com isso…\"\n\n🎯 CENA 9 — QUEBRA DE CRENÇA\n🗣️ \"Isso não é frescura. E não é falta de limite.\"\n\"Isso pode ser seletividade alimentar.\"\n\n🎯 CENA 10 — EXPLICAÇÃO\n🗣️ \"A seletividade alimentar envolve muito mais do que 'querer ou não comer'…\"\n\"Ela pode estar ligada a fatores sensoriais… emocionais… e ao desenvolvimento da criança.\"\n\n🎯 CENA 11 — ALERTA\n🗣️ \"E quando isso é tratado com pressão… com obrigação… ou com comparação…\"\n\"a tendência é piorar.\"\n\n🎯 CENA 12 — SOLUÇÃO\n🗣️ \"Porque o caminho não é forçar… é entender… respeitar… e conduzir da forma certa.\"\n\n🎯 CENA 13 — NUTRICIONISTA\n🗣️ \"E é exatamente por isso que o acompanhamento com um nutricionista infantil faz tanta diferença.\"\n\"Não é só sobre montar um cardápio…\"\n\"É sobre entender o comportamento da criança e construir uma relação saudável com a comida.\"\n\n🎯 CENA 14 — FECHAMENTO\n🗣️ \"Porque no final… não é só sobre alimentação…\"\n\"É sobre evitar traumas e tornar esse momento mais leve pra criança e pra família.\"\n\n🎯 CENA 15 — CTA FINAL\n🗣️ \"Se você passa por isso… procura ajuda.\"\n\"Você não precisa lidar com isso sozinho.\"",
+    "caption": "🍽️ Na hora da comida é sempre a mesma coisa… recusa, negociação, insistência. E no final, só frustração.\n\nMuitos pais passam por isso e quase sempre escutam: \"isso é frescura\", \"é só não dar opção\", \"quando a fome bater, ele come\".\n\nMas não é tão simples assim. A seletividade alimentar infantil envolve fatores sensoriais, emocionais e comportamentais que precisam ser compreendidos — não ignorados.\n\nQuando a criança é pressionada ou comparada, ela começa a associar alimentação com estresse. E o que era fase vira problema.\n\nO acompanhamento com nutricionista infantil faz toda a diferença. Não é só cardápio — é entender a criança e construir uma relação saudável com a comida.\n\nSe você vive isso, saiba: tem solução e você não precisa passar por isso sozinho.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 24,
+    "type": "carrossel",
+    "title": "Um churrasco no final de semana, faz mal?",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slidesNum": "7 slides",
+    "descricao": "Desmistificar a ideia de que churrasco é inimigo da dieta. Com consciência e equilíbrio, dá pra aproveitar sem culpa. Tom descontraído, sem terrorismo nutricional.",
+    "imgObs": "Estética quente, imagens de churrasco. Cada slide com informação curta e visual atrativo.",
+    "roteiro": "",
+    "slides": "Slide 1: Um churrasco no final de semana, faz mal? — Passe para o lado >>>\nSlide 2: Churrasco não é o problema. O problema é o padrão da semana inteira.\nSlide 3: Escolhas inteligentes: prefira cortes magros, capriche na salada, modere nos acompanhamentos ultraprocessados.\nSlide 4: Cuidado com o que acompanha: pão de alho, farofa pronta, refrigerante e cerveja em excesso costumam pesar mais do que a carne.\nSlide 5: O segredo não é evitar o churrasco. É saber como aproveitar sem sabotar o processo.\nSlide 6: Quem tem um plano alimentar bem feito sabe que tem espaço pra tudo — inclusive pra uma picanha.\nSlide 7: Churrasco com consciência é churrasco sem culpa. Agende sua consulta.",
+    "caption": "🔥 Dia Internacional do Churrasco e você aí se perguntando se pode.\n\nPode.\n\nChurrasco não é vilão de dieta nenhuma. O que faz diferença não é um dia no fim de semana — é o que você faz nos outros seis.\n\nAgora, vale prestar atenção no que acompanha. Às vezes o que pesa não é a carne, é o pão de alho, a farofa pronta, o refrigerante e a cerveja sem fim.\n\nNão precisa cortar nada. Só ter consciência. Quem tem um plano alimentar feito sob medida sabe que tem espaço pra tudo — inclusive pra uma boa picanha.\n\nChurrasco com consciência é churrasco sem culpa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 27,
+    "type": "arte",
+    "title": "Não existe dieta certa",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "descricao": "Posicionamento forte e direto. Quebrar a crença de que existe uma \"dieta ideal\" universal. Mensagem simples e profunda que gera reflexão.",
+    "imgObs": "Fundo clean (claro ou escuro com contraste). Destaque principal na frase. \"dieta certa\" pode vir menor. \"faz sentido pra você\" em maior destaque.",
+    "roteiro": "",
+    "caption": "Quantas vezes você já tentou seguir uma dieta que funcionou pra outra pessoa… e não funcionou pra você?\n\nE aí vem a frustração. A sensação de que o problema é você. Que falta disciplina. Que falta constância.\n\nMas o erro nunca esteve em você. Esteve no padrão que você tentou seguir.\n\nCada corpo responde de um jeito. Cada rotina tem suas limitações. E alimentação não é sobre copiar — é sobre construir algo que funcione na sua realidade.\n\nResultado de verdade não vem de intensidade. Vem de constância. E constância só existe quando faz sentido.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 4,
+    "day": 29,
+    "type": "carrossel",
+    "title": "5 frases que estão te sabotando",
+    "pending": false,
+    "trafego": false,
+    "postado": false,
+    "imgs": [],
+    "videoLink": "",
+    "slidesNum": "7 slides",
+    "descricao": "Identificação + educação. Frases comuns que sabotam resultados sem a pessoa perceber. Cada slide com uma frase + explicação curta. Tom direto, acessível, sem julgamento.",
+    "imgObs": "Estética forte, tipografia em destaque. Cada slide com a frase \"sabotadora\" e a desconstrução embaixo.",
+    "roteiro": "",
+    "slides": "Slide 1: 5 frases que estão te sabotando — Passe para o lado >>>\nSlide 2: \"Segunda eu começo.\" → Adiar virou hábito. O melhor dia pra começar é o dia que você decide parar de esperar o momento perfeito.\nSlide 3: \"Vou cortar tudo.\" → Restrição radical gera compulsão. Quanto mais você proíbe, mais o corpo pede. Equilíbrio é o caminho.\nSlide 4: \"Comi besteira, estraguei tudo.\" → Um deslize não apaga o que você construiu. O erro é desistir por causa de um tropeço.\nSlide 5: \"Não tenho tempo pra comer direito.\" → Você não precisa de horas na cozinha. Precisa de um plano que caiba na sua rotina.\nSlide 6: \"Fulano emagreceu com essa dieta, vou fazer igual.\" → O que funcionou pra outra pessoa pode não funcionar pra você. Cada corpo é único.\nSlide 7: Se você se identificou com alguma dessas frases, talvez seja hora de mudar a forma como você enxerga alimentação. Agende sua consulta.",
+    "caption": "Às vezes o que te trava não é a falta de dieta. É o que você repete pra si mesmo todo dia.\n\n\"Segunda eu começo.\" \"Vou cortar tudo.\" \"Comi besteira, estraguei tudo.\" \"Não tenho tempo.\" \"Fulano emagreceu assim, vou fazer igual.\"\n\nCada uma dessas frases esconde uma crença que te sabota sem você perceber. Adiar gera ansiedade. Restringir gera compulsão. Se culpar gera desistência. Comparar gera frustração.\n\nAlimentação saudável começa quando você para de se punir e começa a se entender. Com orientação certa, no tempo certo, respeitando o seu corpo e a sua rotina.\n\nSe você quer parar de sabotar seus próprios resultados… bora mudar essa conversa.\n\n📍 Consultório Glaubert Couto\nR. Itaperuna, 13 — 2º andar — Angra dos Reis, RJ\n📱 (24) 99924-2551"
+  },
+  {
+    "month": 1,
+    "day": 4,
+    "type": "arte",
+    "title": "teste",
+    "caption": "",
+    "imgObs": "",
+    "roteiro": "",
+    "videoLink": "",
+    "slides": "",
+    "slidesNum": "",
+    "pending": false,
+    "postado": false,
+    "trafego": false,
+    "imgs": []
+  }
+];
 
 POSTS = POSTS.map(p => ({...p, imgs: p.imgs||[], caption:p.caption||'', descricao:p.descricao||'', imgObs:p.imgObs||'', roteiro:p.roteiro||'', videoLink:p.videoLink||'', slides:p.slides||'', slidesNum:p.slidesNum||'', postado:p.postado||false}));
 
-let PLAN_DATA = {"1":{},"2":{},"3":{},"4":{"objetivos":"Iniciar Material mais leve para depois começar a produzir material mais profissional.","investimento":"500 reais","trafego":"500 reais em meta ads","influenciadores":"Nenhum.","persona":"Público geral de 25 a 40 anos.","observacoes":"Captação no dia 1 de abril."},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"12":{}};
+let PLAN_DATA = {
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {
+    "objetivos": "Iniciar Material mais leve para depois começar a produzir material mais profissional.",
+    "investimento": "500 reais",
+    "trafego": "500 reais em meta ads",
+    "influenciadores": "Nenhum.",
+    "persona": "Público geral de 25 a 40 anos.",
+    "observacoes": "Captação no dia 1 de abril."
+  },
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "11": {},
+  "12": {}
+};
 
 function getPlan(m){ return PLAN_DATA[m] || (PLAN_DATA[m]={}); }
 function savePlanField(m, field, val){ getPlan(m)[field] = val; }
@@ -1506,7 +1846,8 @@ const observer = new IntersectionObserver((entries)=>{
   });
 },{threshold:0.15});
 document.querySelectorAll('.month-block').forEach(el=>observer.observe(el));
-</script><input type="file" accept="image/*" multiple="" style="display: none;">
+</script><input type="file" accept="image/*" multiple="" style="display: none;"><input type="file" accept="image/*" multiple="" style="display: none;">
+
 
 
 </body></html>
